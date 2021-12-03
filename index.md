@@ -1,7 +1,9 @@
-## Abstract 
+## <a name="abstract"></a> Abstract
 
 
 Climate change became a real threat in the last decades. With the Quotebank dataset, it is possible to map the relation between its impacts and public opinion. Major events are inflating this debate. Indeed, human nature leads us to be concerned either by events impacting our personal lives, or by spectacular ones. As such, we seek to study the reaction of media with respect to events and try to identify their nature. In that way, we can better understand the human psychology regarding the climate threat and how the reactions evolved along the years. To do so, we look for the highest number of occurences of climate change mentions and use the evoked keywords to determine if it corresponds to a particular event. As such, the data allows us to deduce the evolution of the role of the environment in the media.
+
+[test](#abstract)
 
 ## Research questions
 
