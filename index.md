@@ -11,8 +11,10 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
 3. [Methods](#methods)
-4. [Third Example](#third-example)
-5. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+4. [The choice of the events](#choice)
+5. [The nature of the reaction](#reaction)
+6. [What is the most impactful?](#impact)
+7. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 
 # <a name="objectives"></a> Objectives
@@ -38,7 +40,7 @@ We could try in the future in our datastory blog to incorporate interactiveness 
 
 # <a name="reaction"></a> What is the nature of the event reactions?
 
-
+# <a name="impact"></a> And the biggest impact is attributed to...
 
 
 
