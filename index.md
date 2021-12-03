@@ -22,7 +22,7 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 * How are the events chosen and what are their nature?
 * What are the characteristics of the reaction with respect to each event (volume, sentiment,etc.)?
 * What kind of event is the most impactful ?
-* Do the location and the speaker have an impact?
+* Does the location of the event matter and do different countries uniformly report the news ?
 * PEUT ETRE : Can we elaborate the sentiment analysis with a pronoun analysis?
 
 
