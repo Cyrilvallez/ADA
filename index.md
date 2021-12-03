@@ -1,14 +1,23 @@
 ## <a name="abstract"></a> Abstract
 
 
-Climate change became a real threat in the last decades. With the Quotebank dataset, it is possible to map the relation between its impacts and public opinion. Major events are inflating this debate. Indeed, human nature leads us to be concerned either by events impacting our personal lives, or by spectacular ones. As such, we seek to study the reaction of media with respect to events and try to identify their nature. In that way, we can better understand the human psychology regarding the climate threat and how the reactions evolved along the years. To do so, we look for the highest number of occurences of climate change mentions and use the evoked keywords to determine if it corresponds to a particular event. As such, the data allows us to deduce the evolution of the role of the environment in the media.
+Climate change became a real threat in the last decades. With the Quotebank dataset, it is possible to map the relation between its impacts and public opinion. Major events are inflating this debate. Indeed, human nature leads us to be concerned either by events impacting our personal lives, or by spectacular ones. As such, we seek to study the reaction of media with respect to events. By selecting several events related to climate change in the dataset, we can study the reaction they generate and consequently their impact. As such, it will be possible to make clear distinctions between the respective types of these events and how the sentiment towards them are evolving along the years.
 
 [test](#abstract)
 
+trouver les caractéristiques des réactions aux evenements pour étudier ces réactions et leur impact sur le débat public 
+
+# Table of Contents
+1. [Abstract](#abstract)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
+
 ## Research questions
 
-* Can the number of quotes about climate change be linked to particular events only by using keywords?
-* Can we identify the nature of the event according to the content of the quotes on a given day?
+* 
+* 
 * What kind of event is the most impactful ?
 * Optional : How different political parties handle these events (using sentiment analysis)
 
