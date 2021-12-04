@@ -39,7 +39,17 @@ We could try in the future in our datastory blog to incorporate interactiveness 
 # <a name="choice"></a> Which events did we choose?
 
 The selection of the studied events is crucial for this analysis. In order to find the best samples, machine learning could have been a solution but doing a keyword based analysis will definitely do the job. Then, a variety of key workds have been selected to filter the data set and focus on climate change.
+
 lexic_small = ['climate change', 'climate emergency', 'global warming', 'COP21', 'COP26']
+
+Visually, events can be found thanks to the occurence of quotes related to this lexic. 
+
+GRAPH GRAPH GRAPH
+
+* The withdrawal of the USA from the Paris' agreements 
+* The COP21 event
+* A hurricane in the USA
+* The OurOcean event in Washington DC
 
 # <a name="reaction"></a> What is the nature of the event reactions?
 
