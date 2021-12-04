@@ -19,7 +19,7 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 
 # <a name="objectives"></a> Objectives
 
-* How are the events chosen and what are their nature?
+* What are the chosen events and what are their nature?
 * What are the characteristics of the reaction with respect to each event (volume, sentiment,etc.)?
 * What kind of event is the most impactful ?
 * Does the location of the event matter and do different countries uniformly report the news ?
@@ -37,6 +37,9 @@ Once we have constructed this dataset, we will want to visualize the frequency o
 We could try in the future in our datastory blog to incorporate interactiveness to the data. This would be done by allowing the viewer to "click" on peakdays, discover by themselves the most mentioned words and deduce what would be the event.
 
 # <a name="choice"></a> Which events did we choose?
+
+The selection of the studied events is crucial for this analysis. In order to find the best samples, machine learning could have been a solution but doing a keyword based analysis will definitely do the job. Then, a variety of key workds have been selected to filter the data set and focus on climate change.
+lexic_small = ['climate change', 'climate emergency', 'global warming', 'COP21', 'COP26']
 
 # <a name="reaction"></a> What is the nature of the event reactions?
 
