@@ -49,6 +49,8 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 GRAPH GRAPH GRAPH
 
+[Graph used for testing purposes](graphtest.html)
+
 * The withdrawal of the USA from the Paris' agreements 
 * The COP21 event
 * A hurricane in the USA
