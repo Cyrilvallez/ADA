@@ -58,7 +58,7 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 # <a name="reaction"></a> What are the characteristics of the events?
 
-Exploring the volume of quotes related to each event can show how the evolution of the debate look like. Do we have less quotations *right* after the day of the event? Or is there any build up of the number of quotes right *before* the event?
+Exploring the volume of quotes related to each event can show how the evolution of the debate look like. Do we have less quotations *right* after the day of the event? Or is there any build up of the number of quotes right **before** the event?
 
 # <a name="identity"></a> Who is talking about climate change?
 
