@@ -54,6 +54,8 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 {% include Frequency.html %}
 
+{% include Count.html %}
+
 {% include Frequency_by_month.html %}
 
 {% include Frequency_by_day.html %}
