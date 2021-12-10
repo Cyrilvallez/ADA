@@ -9,9 +9,10 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
 3. [Methods](#methods)
-4. [The choice of the events](#choice)
-5. [The nature of the reaction](#reaction)
-6. [What is the most impactful?](#impact)
+4. [The QuoteBank dataset](#quotebank)
+5. [The choice of the events](#choice)
+6. [The nature of the reaction](#reaction)
+7. [What is the most impactful?](#impact)
 
 # <a name="objectives"></a> Objectives
 
@@ -31,6 +32,12 @@ We will also expand the dataset to add information about the speakers (using Wik
 Once we have constructed this dataset, we will want to visualize the frequency of quotes regarding the subject and see if any peaks are detectable. To detect the peaks we will implement a method to find local maxima on different scales (weeks or days). One of the main goals of this project is to create a baseline trend for the increase of climate discussions and to identify the outliers to try and link them to particular events. To be able to detect which event corresponds to a particular set of quotes, we also study the most common words cited using `nltk`, by first removing stopwords, punctuation and also words we used to identify quotes related to climate. 
 
 We could try in the future in our datastory blog to incorporate interactiveness to the data. This would be done by allowing the viewer to "click" on peakdays, discover by themselves the most mentioned words and deduce what would be the event.
+
+
+# <a name="quotebank"></a> The QuoteBank dataset
+
+Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
+
 
 # <a name="choice"></a> Which events did we choose?
 
