@@ -12,8 +12,6 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 4. [The choice of the events](#choice)
 5. [The nature of the reaction](#reaction)
 6. [What is the most impactful?](#impact)
-7. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
 
 # <a name="objectives"></a> Objectives
 
