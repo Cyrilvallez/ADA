@@ -1,5 +1,3 @@
-# Which events have pushed the climate debate forward in recent history ?
-
 ## <a name="abstract"></a> Abstract
 
 
