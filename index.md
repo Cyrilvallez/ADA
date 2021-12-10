@@ -17,10 +17,10 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 # <a name="objectives"></a> Objectives
 
 * What are the chosen events and what are their nature?
-* What are the characteristics of the reaction with respect to each event (volume, sentiment,etc.)?
-* What kind of event is the most impactful ?
-* Does the location of the event matter and do different countries uniformly report the news ?
-* PEUT ETRE : Can we elaborate the sentiment analysis with a pronoun analysis?
+* What are the characteristics of the reaction with respect to each event? Does any seasonality appear and how does the volume evolves?
+* What is the identity of the speakers of such quotes? Who is the most quoted between the politicians and the scientists?
+* Focusing on the politicians speakers, what is the respective position towards climate change for each type of party?
+* What class of events is the most impactful ??????????????????????????????
 
 
 # <a name="methods"></a> Methods
