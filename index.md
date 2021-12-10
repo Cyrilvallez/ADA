@@ -8,13 +8,14 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 # Table of Contents
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
-3. [Methods](#methods)
-4. [The Quotebank dataset](#quotebank)
-5. [The choice of the events](#choice)
-6. [Event Analysis](#reaction)
-7. [Identity of the speakers](#identity)
-8. [Focus on the political spectrum of the speakers](#politics)
-9. [What is the most impactful?](#impact)
+3. [Introduction](#intro)
+4. [Methods](#methods)
+5. [The Quotebank dataset](#quotebank)
+6. [The choice of the events](#choice)
+7. [Event Analysis](#reaction)
+8. [Identity of the speakers](#identity)
+9. [Focus on the political spectrum of the speakers](#politics)
+10. [What is the most impactful?](#impact)
 
 # <a name="objectives"></a> Objectives
 
@@ -23,6 +24,8 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 * What is the identity of the speakers of such quotes? Who are the most quoted between the politicians and the scientists?
 * Focusing on the politicians speakers, what is the respective position towards climate change for each type of party?
 * What class of events is the most impactful ??????????????????????????????
+
+# <a name="intro"></a> The Quotebank dataset
 
 
 # <a name="methods"></a> Methods
