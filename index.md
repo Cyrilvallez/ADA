@@ -49,7 +49,7 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 GRAPH GRAPH GRAPH
 
-{% include graphtest.html %}
+{% include all_years.html %}
 
 * The withdrawal of the USA from the Paris' agreements 
 * The COP21 event
