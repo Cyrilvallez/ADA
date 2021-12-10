@@ -2,6 +2,10 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
 
 {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,10 +33,57 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+      <div class="bk-root" id="0d42d805-f0c2-4e69-a564-14641bc38d8b" data-root-id="1002"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1182">
+          {"5262b008-b9ac-4a88-8529-5160f838f99b":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1011"}],"center":[{"id":"1014"},{"id":"1018"}],"height":250,"left":[{"id":"1015"}],"max_width":500,"renderers":[{"id":"1037"}],"sizing_mode":"stretch_width","title":{"id":"1039"},"toolbar":{"id":"1026"},"x_range":{"id":"1003"},"x_scale":{"id":"1007"},"y_range":{"id":"1005"},"y_scale":{"id":"1009"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"data_source":{"id":"1033"},"glyph":{"id":"1034"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1036"},"nonselection_glyph":{"id":"1035"},"view":{"id":"1038"}},"id":"1037","type":"GlyphRenderer"},{"attributes":{},"id":"1020","type":"WheelZoomTool"},{"attributes":{},"id":"1003","type":"DataRange1d"},{"attributes":{},"id":"1009","type":"LinearScale"},{"attributes":{"source":{"id":"1033"}},"id":"1038","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"size":{"value":15},"x":{"field":"x"},"y":{"field":"y"}},"id":"1036","type":"Circle"},{"attributes":{},"id":"1019","type":"PanTool"},{"attributes":{"overlay":{"id":"1025"}},"id":"1021","type":"BoxZoomTool"},{"attributes":{},"id":"1042","type":"BasicTickFormatter"},{"attributes":{},"id":"1022","type":"SaveTool"},{"attributes":{},"id":"1023","type":"ResetTool"},{"attributes":{},"id":"1043","type":"AllLabels"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"value":15},"x":{"field":"x"},"y":{"field":"y"}},"id":"1035","type":"Circle"},{"attributes":{},"id":"1005","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1025","type":"BoxAnnotation"},{"attributes":{},"id":"1045","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"formatter":{"id":"1045"},"group":null,"major_label_policy":{"id":"1046"},"ticker":{"id":"1012"}},"id":"1011","type":"LinearAxis"},{"attributes":{"tools":[{"id":"1019"},{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"}]},"id":"1026","type":"Toolbar"},{"attributes":{"coordinates":null,"formatter":{"id":"1042"},"group":null,"major_label_policy":{"id":"1043"},"ticker":{"id":"1016"}},"id":"1015","type":"LinearAxis"},{"attributes":{},"id":"1046","type":"AllLabels"},{"attributes":{},"id":"1007","type":"LinearScale"},{"attributes":{},"id":"1012","type":"BasicTicker"},{"attributes":{"coordinates":null,"group":null},"id":"1039","type":"Title"},{"attributes":{"axis":{"id":"1011"},"coordinates":null,"group":null,"ticker":null},"id":"1014","type":"Grid"},{"attributes":{},"id":"1047","type":"UnionRenderers"},{"attributes":{"data":{"x":[1,2,3,4,5],"y":[4,5,5,7,2]},"selected":{"id":"1048"},"selection_policy":{"id":"1047"}},"id":"1033","type":"ColumnDataSource"},{"attributes":{},"id":"1048","type":"Selection"},{"attributes":{"axis":{"id":"1015"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1018","type":"Grid"},{"attributes":{},"id":"1016","type":"BasicTicker"},{"attributes":{},"id":"1024","type":"HelpTool"},{"attributes":{"fill_color":{"value":"red"},"line_color":{"value":"#1f77b4"},"size":{"value":15},"x":{"field":"x"},"y":{"field":"y"}},"id":"1034","type":"Circle"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1182').textContent;
+                  const render_items = [{"docid":"5262b008-b9ac-4a88-8529-5160f838f99b","root_ids":["1002"],"roots":{"1002":"0d42d805-f0c2-4e69-a564-14641bc38d8b"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">This project</a> is maintained by <a href="https://charlesbeauville.com">Charles Beauville</a>, <a href="https://github.com/Adrienjal98">Adrien Jalouneix</a>, <a href="https://github.com/nicolasmarbot">Nicolas Marbot</a> and <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+          <img style="width: 0.1em;" src="epfl.svg">
+          <img style="width: 0.1em;" src="dblab.svg">
         {% endif %}
       </footer>
     </main>

@@ -9,7 +9,7 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
 3. [Methods](#methods)
-4. [The QuoteBank dataset](#quotebank)
+4. [The Quotebank dataset](#quotebank)
 5. [The choice of the events](#choice)
 6. [The nature of the reaction](#reaction)
 7. [What is the most impactful?](#impact)
@@ -34,7 +34,7 @@ Once we have constructed this dataset, we will want to visualize the frequency o
 We could try in the future in our datastory blog to incorporate interactiveness to the data. This would be done by allowing the viewer to "click" on peakdays, discover by themselves the most mentioned words and deduce what would be the event.
 
 
-# <a name="quotebank"></a> The QuoteBank dataset
+# <a name="quotebank"></a> The Quotebank dataset
 
 Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
 
