@@ -11,14 +11,16 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 3. [Methods](#methods)
 4. [The Quotebank dataset](#quotebank)
 5. [The choice of the events](#choice)
-6. [The nature of the reaction](#reaction)
-7. [What is the most impactful?](#impact)
+6. [Event Analysis](#reaction)
+7. [Identity of the speakers](#identity)
+8. [Focus on the political spectrum of the speakers](#politics)
+9. [What is the most impactful?](#impact)
 
 # <a name="objectives"></a> Objectives
 
 * What are the chosen events and what are their nature?
-* What are the characteristics of the reaction with respect to each event? Does any seasonality appear and how does the volume evolves?
-* What is the identity of the speakers of such quotes? Who is the most quoted between the politicians and the scientists?
+* What are the characteristics of the reaction with respect to each event? Does any seasonality appear and how does the volume evolve?
+* What is the identity of the speakers of such quotes? Who are the most quoted between the politicians and the scientists?
 * Focusing on the politicians speakers, what is the respective position towards climate change for each type of party?
 * What class of events is the most impactful ??????????????????????????????
 
@@ -56,6 +58,10 @@ GRAPH GRAPH GRAPH
 * A hurricane in the USA
 * The OurOcean event in Washington DC
 
-# <a name="reaction"></a> What is the nature of the event reactions?
+# <a name="reaction"></a> What are the characteristics of the events?
+
+# <a name="identity"></a> Who is talking about climate change?
+
+# <a name="politics"></a> When we focus on the politics related speakers, how does the political spectrum looks like?
 
 # <a name="impact"></a> And the biggest impact is attributed to...
