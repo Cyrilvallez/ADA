@@ -49,8 +49,6 @@ lexic_small = ['climate change', 'climate emergency', 'global warming', 'COP21',
 
 Visually, events can be found thanks to the occurence of quotes related to this lexic. 
 
-GRAPH GRAPH GRAPH
-
 {% include Frequency.html %}
 
 * The withdrawal of the USA from the Paris' agreements 
