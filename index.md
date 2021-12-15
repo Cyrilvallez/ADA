@@ -56,6 +56,8 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 {% include Count.html %}
 
+Looking at the next trends on the frequency of climate change related quotes, we notice that there is almost each year a higher activity towards the end of the year, especially in 2016. Why so? Each year, the emission gap report(EGR) is published by the UN to help decision makers to grasp the annual climatic situation. In other words, it is kind of like the little brother of the IPCC's report published every 6 to 7 years. However, its publication does not go unnoticed in the press as it triggers a spike in climate change related quotes. Something even more surprising is the peak of quotes in 2016 specifically. It is even more intense than the others. This reason might be related to the COP21 conference that was held 1 year prior. Indeed, many signatures were made, many political promises were said, and the first EGR after this conference was even more expected thant the others. 'One year after the confenrece of the decade, did the situation get better?' were screaming the many related articles(spoiler : not much).
+
 {% include Frequency_by_month.html %}
 
 {% include Frequency_by_day.html %}
