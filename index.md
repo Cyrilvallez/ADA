@@ -62,6 +62,29 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 {% include democratic_republican.html %}
 
+{% include all_years.html %}
+
+{% include politic_research.html %}
+
+{% include sentiment_2015.html %}
+
+{% include sentiment_2016.html %}
+
+{% include sentiment_2017.html %}
+
+{% include sentiment_2018.html %}
+
+{% include sentiment_2019.html %}
+
+{% include sentiment_2020.html %}
+
+{% include sentiment_australia.html %}
+
+{% include sentiment_cop21.html %}
+
+{% include sept_strikes.html %}
+
+{% include sentiment_trump.html %}
 * The withdrawal of the USA from the Paris' agreements 
 * The COP21 event
 * A hurricane in the USA
