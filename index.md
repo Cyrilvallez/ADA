@@ -82,7 +82,7 @@ Visually, events can be found thanks to the occurence of quotes related to this 
 
 {% include sentiment_cop21.html %}
 
-{% include sept_strikes.html %}
+{% include sentiment_sept_strikes.html %}
 
 {% include sentiment_trump.html %}
 * The withdrawal of the USA from the Paris' agreements 
