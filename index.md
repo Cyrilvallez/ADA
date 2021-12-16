@@ -1,9 +1,7 @@
 # <a name="abstract"></a> Abstract
 
 
-Climate change became a real threat in the last decades. With the Quotebank dataset, it is possible to map the relation between its impacts and public opinion. Major events are inflating this debate. Indeed, human nature leads us to be concerned either by events impacting our personal lives, or by spectacular ones. As such, we seek to study the reaction of media with respect to events. By selecting several events related to climate change in the dataset, we can study the reaction they generate and consequently their impact. As such, it will be possible to make clear distinctions between the respective types of these events and how the sentiment towards them are evolving along the years.
-
-trouver les caractéristiques des réactions aux evenements pour étudier ces réactions et leur impact sur le débat public 
+It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 50M quotes from which climate change related quotes can be filtered. In this sense, the goal of this study is to better understand how the climate change debate has been evolving with a focus on a few events that were pillars in the discussion.
 
 # Table of Contents
 1. [Abstract](#abstract)
@@ -19,17 +17,25 @@ trouver les caractéristiques des réactions aux evenements pour étudier ces r�
 
 # <a name="objectives"></a> Objectives
 
-* What are the chosen events and what are their nature?
+* How the dataset was filtered?
 * What are the characteristics of the reaction with respect to each event? Does any seasonality appear and how does the volume evolve?
 * What is the identity of the speakers of such quotes? Who are the most quoted between the politicians and the scientists?
 * Focusing on the politicians speakers, what is the respective position towards climate change for each type of party?
 * What class of events is the most impactful ??????????????????????????????
 
-# <a name="intro"></a> The Quotebank dataset
+# <a name="intro"></a> From 178 million quotes to "a few" hundred thousands
+
+Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
+
+To analyse the different events we have chosen, we first needed to determine which quotes were talking about climate change. To do so, we tested different methods but got the best results by just using a small lexicon of expressions linked to climate change (using only words would lead to unreliable results). The expressions we used are the following : ‘climate change’, ‘climate emergency’ and ‘global warming’. We wanted very general expressions, so as not to bias our future analysis. For example, we avoided including COP21 and COP26 in our lexicon to avoid the influence it could have on the nature of the quotes. We could have many other fancy methods to filter the dataset but at the end, it is usually enough to trust our instinct and choose the most logical words with a keyword analysis.
+
+When looking at the count of quotes talking about climate change from 2015 to early 2020, what striked us, apart from the three distinct peaks, was the very low number of quotes during some months in 2016 and 2017. We need to take this into account when looking at frequency plots. Indeed if we plot the frequency of quotes talking about climate over all quotes from 2015 to 2020, we see some very important peaks around the low count months of 2016 and 2017. We must therefore ignore these months as a very low count skewes the frequencies way too high.
+
 
 
 # <a name="methods"></a> Methods
 
+A GARDER OU NON
 The first task we need to tackle is to extract quotes that are related to climate change. For this we established a list of words related to this subject and filtered out the quotes that did not contain any of those words. This method seems sufficient during our testing and was much more efficient than using a pre-trained classifier.
 
 We will also expand the dataset to add information about the speakers (using Wikidata), for instance, their political party, if they are politicians (maybe focused on the USA for parties consistency). During our testing we also performed sentiment analysis, using a pre-trained model shipped with `nltk`, this might become useful to answer questions about how different people adress the climate issue.
@@ -38,25 +44,18 @@ Once we have constructed this dataset, we will want to visualize the frequency o
 
 We could try in the future in our datastory blog to incorporate interactiveness to the data. This would be done by allowing the viewer to "click" on peakdays, discover by themselves the most mentioned words and deduce what would be the event.
 
-
-# <a name="quotebank"></a> The Quotebank dataset
-
-Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
-
+After some investigations in the dataset Quotebank, we noticed that there were holes of data during the year 2016. As such, to prevent its nefast influence, we decided to set a threshold on the number of quotes per day because these days tend to have significantly higher frequency of climate related quotes appearances. In the next figure, this effect is visually noticeable, (FIGURE SUPERPOSITION AVEC/SANS 2016),
 
 # <a name="choice"></a> Which events did we choose?
 
-The selection of the studied events is crucial for this analysis. In order to find the best samples, machine learning could have been a solution but doing a keyword based analysis will definitely do the job. Then, a variety of key workds have been selected to filter the data set and focus on climate change.
-
-lexic_small = ['climate change', 'climate emergency', 'global warming', 'COP21', 'COP26']
 
 Visually, events can be found thanks to the occurence of quotes related to this lexic. 
 
 {% include Frequency.html %}
 
 {% include Count.html %}
+Looking at the next trends on the frequency of climate change related quotes, we notice that there is almost each year a higher activity towards the end of the year. Why so? Each year, the emission gap report(EGR) is published by the UN to help decision makers to grasp the annual climatic situation. In other words, it is kind of like the little brother of the IPCC's report published every 6 to 7 years. However, its publication does not go unnoticed in the press as it triggers a spike in climate change related quotes. It might also be related to natural events in the south hemisphere. As we tend to associate the month of november and december with cold weather, in the south it is the opposite. This is when wildfires are the most expected in Australia. As it is an English speaking country part of the Commonwealth, it is natural to expect many quotes related to this country in the Quotebank dataset.
 
-Looking at the next trends on the frequency of climate change related quotes, we notice that there is almost each year a higher activity towards the end of the year, especially in 2016. Why so? Each year, the emission gap report(EGR) is published by the UN to help decision makers to grasp the annual climatic situation. In other words, it is kind of like the little brother of the IPCC's report published every 6 to 7 years. However, its publication does not go unnoticed in the press as it triggers a spike in climate change related quotes. Something even more surprising is the peak of quotes in 2016 specifically. It is even more intense than the others. This reason might be related to the COP21 conference that was held 1 year prior. Indeed, many signatures were made, many political promises were said, and the first EGR after this conference was even more expected thant the others. 'One year after the confenrece of the decade, did the situation get better?' were screaming the many related articles(spoiler : not much).
 
 {% include Frequency_by_month.html %}
 
