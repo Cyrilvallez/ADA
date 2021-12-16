@@ -12,8 +12,11 @@ It is no surprise to anyone reading this that climate change has been a topic of
 6. [Do we observe any seasonality?](#annualtrend)
 7. [The eternal rivalry between republicans and democrats](#rep)
 8. [A science issue for science people](#science)
-9. [Focus on the political spectrum of the speakers](#politics)
-10. [What is the most impactful?](#impact)
+9. [Trump here, Trump there, Trump everywhere](#trump)
+10. [Okay politics, and what about natural events?](#nature)
+11. [There is a disturbance in the debate...](#covid)
+12. [AND WOMEN IN ALL OF THIS?](#male)
+13. [Conclusion](#conclusion)
 
 # <a name="objectives"></a> Objectives
 
@@ -72,10 +75,10 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 {% include sentiment_trump.html %}
 
 
-# <a name="reaction"></a> Okay politics, and what about natural events?
+# <a name="nature"></a> Okay politics, and what about natural events?
 
 
-# <a name="identity"></a> There is a disturbance in the debate...
+# <a name="covid"></a> There is a disturbance in the debate...
 
 # <a name="male"></a> AND WOMEN IN ALL OF THIS?
 {% include male_female_normal.html %}
