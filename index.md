@@ -3,20 +3,29 @@
 
 It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 50M quotes from which climate change related quotes can be filtered. In this sense, the goal of this study is to better understand how the climate change debate has been evolving with a focus on a few events that were pillars in the discussion.
 
+# TODO LIST
+* Who is talking about climate change
+    * Carte des nationnalités
+    * Occupation plot
+* Natural events analysis
+* There is a disturbance in the media
+* Extra : male-female
+* Better plots
+    * Averages on sentiment plots
+    * Volume plots
+* Events qui eclipsent le climat
+
 # Table of Contents
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
-3. [From 178 million quotes to "a few" hundred thousands](#intro)
-4. [Who is talking about climate change?](#who)
-5. [Timeline of the debate](#timeline)
-6. [Do we observe any seasonality?](#annualtrend)
-7. [The eternal rivalry between republicans and democrats](#rep)
-8. [A science issue for science people](#science)
-9. [Trump here, Trump there, Trump everywhere](#trump)
-10. [Okay politics, and what about natural events?](#nature)
-11. [There is a disturbance in the debate...](#covid)
-12. [AND WOMEN IN ALL OF THIS?](#male)
-13. [Conclusion](#conclusion)
+3. [Introduction](#intro)
+4. [Methods](#methods)
+5. [The Quotebank dataset](#quotebank)
+6. [The choice of the events](#choice)
+7. [Event Analysis](#reaction)
+8. [Identity of the speakers](#identity)
+9. [Focus on the political spectrum of the speakers](#politics)
+10. [What is the most impactful?](#impact)
 
 # <a name="objectives"></a> Objectives
 
@@ -34,9 +43,8 @@ To analyse the different events we have chosen, we first needed to determine whi
 
 After some investigations in the dataset Quotebank, we noticed that there were holes of data during the year 2016. As such, to prevent its nefast influence, we decided to set a threshold on the number of quotes per day because these days tend to have significantly higher frequency of climate related quotes appearances. In the next figure, this effect is visually noticeable, (FIGURE SUPERPOSITION AVEC/SANS 2016),
 
-# <a name="who"></a> Who is talking about climate change?
 
-# <a name="timeline"></a> Timeline of the debate
+# <a name="choice"></a> Which events did we choose?
 
 
 When looking at the count of quotes talking about climate change from 2015 to early 2020, what striked us, apart from the three distinct peaks, was the very low number of quotes during some months in 2016 and 2017. We need to take this into account when looking at frequency plots. Indeed if we plot the frequency of quotes talking about climate over all quotes from 2015 to 2020, we see some very important peaks around the low count months of 2016 and 2017. We must therefore ignore these months as a very low count skewes the frequencies way too high. The next two graphs represent the timeline of the quotes related to climate change, the first for frequency in ‰ (defined by the number of climate quotes in a day divided by the total amount of quotes the same day) and the second one with simply the raw number of quotes per day.
@@ -62,26 +70,47 @@ Let's now talk a little bit of politics ! Here it is noticeable that as expected
 {% include democratic_republican.html %}
 
 
-# <a name="science"></a> A science issue for science people
-
 Let's now take a bigger perspective on the speakers and study the differences between the allocated quotes between researches and politicians. We should give more time of speech to scientists, right? They are the one knowing what they talk about, isn't it? Hell no! From the graph here below, it is clearly observable that scientists are not given that many opportunities to express their knowledge compared to politicians which are twice as many times quoted more than scientists. Even though it is not necessarily dramatic, as politicians are mainly the spokepersons of the people, giving more weight to the voices of the climatologists, anthropologists and so on would help to push the debate further. Indeed, as studies show it, people tend to trusting less and less their leaders (https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/). 
 
 Additionally, we see a very interesting trend: while the frequency of quotes made by scientists increases slowly over the period we’re studying, the frequency of quotes made by politicians go up significantly (31% vs 55% increase). This could indicate that politicians are more and more involved in the climate debate possibly because of the growing public interest (maybe cite a study here) around the subject and therefore the proponent space it is starting to take in the public debate, to win an election now, you can’t ignore the climate debate. Is it related to actual concern on climate change or just as a political lever to get elected?
 {% include politic_research.html %}
 
-
-# <a name="trump"></a> Trump here, Trump there, Trump everywhere
-
-{% include sentiment_trump.html %}
-
-
-# <a name="nature"></a> Okay politics, and what about natural events?
-
-
-# <a name="covid"></a> There is a disturbance in the debate...
-
-# <a name="male"></a> AND WOMEN IN ALL OF THIS?
 {% include male_female_normal.html %}
 
 {% include male_non_male.html %}
-# <a name="conclusion"></a> Conclusion
+
+{% include tot_sent_count.html %}
+
+{% include sentiment_2015.html %}
+
+{% include sentiment_2016.html %}
+
+{% include sentiment_2017.html %}
+
+{% include sentiment_2018.html %}
+
+{% include sentiment_2019.html %}
+
+{% include sentiment_2020.html %}
+
+{% include sentiment_australia.html %}
+
+{% include sentiment_cop21.html %}
+
+{% include sentiment_sept_strikes.html %}
+
+{% include sentiment_trump.html %}
+* The withdrawal of the USA from the Paris' agreements 
+* The COP21 event
+* A hurricane in the USA
+* The OurOcean event in Washington DC
+
+# <a name="reaction"></a> What are the characteristics of the events?
+
+Exploring the volume of quotes related to each event can show how the evolution of the debate look like. Do we have less quotations *right* after the day of the event? Or is there any build up of the number of quotes right **before** the event?
+
+# <a name="identity"></a> Who is talking about climate change?
+
+# <a name="politics"></a> When we focus on the politics related speakers, how does the political spectrum looks like?
+
+# <a name="impact"></a> And the biggest impact is attributed to...
