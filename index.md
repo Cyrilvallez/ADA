@@ -54,7 +54,7 @@ When looking at the count of quotes talking about climate change from 2015 to ea
 
 {% include Count.html %}
 
-
+# <a name="annualtrend"></a> Do we observe any seasonality?
 The next part is also interesting. We decided to put on the same graph the annual distribution of climate quotes from January to December. In those distribution, two seasonal patterns are noticeable. Unfortunately, due to the small amount of years in this dataset, it is difficult to extract any other pattern. Indeed, we would need more years to observe more precise trends. However, the mentioned patterns are due maybe due to the extreme events occuring usually more in the summer seasons. In june, there is a peak, related to the catastrophic events occuring in the US (for example the wildfires in the West coast and the hurricanes in the East coast). Also, in the "North hemisphere winter" months, an increasing trend is noticeable and it might also be related to natural events in the south hemisphere. As we tend to associate the month of november and december with cold weather, in the south it is the opposite. This is when wildfires are the most expected in Australia. As it is an English speaking country part of the Commonwealth, it is natural to expect many quotes related to this country in the Quotebank dataset.
 
 
@@ -66,9 +66,15 @@ A weird behavior should still be mentioned : in 2018, the trend is almost only i
 
 {% include Frequency_by_day.html %}
 
+# <a name="rep"></a> The eternal rivalry between republicans and democrats
+
 Let's now talk a little bit of politics ! Here it is noticeable that as expected, republicans talk less than democrates about climate change. Indeed, it has been reported in several reports that they consider climate change less as a top priority than democrats (source : https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/). Republicans have historically been pretty skeptical about climate change, they tend to favor the development of their industries over the wellbeing of the atmosphere. Something quite surprising is the fact that the republicans even talk less and less about the climate. What do we do when we realise we are wrong about something? We tend to stay silent. In the same way Trump avoided talking about coronavirus after catching it, republicans might realise the urgency of mitigating the GHG emissions and are running out of arguments to counter argument this movement. This is a first theory, another one might be related to the election in 2017 of Trump. Being the leader of the country with a great influence over his party, his scepticism towards global warming might have convinced his fellow politicians to talk less about it.  All the while, the trend for democrats remains very steady. It would be interesting to analyse this result for previous years as well, it would show if this is a long term trend or not.
 {% include democratic_republican.html %}
 
+
+Let's now take a bigger perspective on the speakers and study the differences between the allocated quotes between researches and politicians. We should give more time of speech to scientists, right? They are the one knowing what they talk about, isn't it? Hell no! From the graph here below, it is clearly observable that scientists are not given that many opportunities to express their knowledge compared to politicians which are twice as many times quoted more than scientists. Even though it is not necessarily dramatic, as politicians are mainly the spokepersons of the people, giving more weight to the voices of the climatologists, anthropologists and so on would help to push the debate further. Indeed, as studies show it, people tend to trusting less and less their leaders (https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/). 
+
+Additionally, we see a very interesting trend: while the frequency of quotes made by scientists increases slowly over the period we’re studying, the frequency of quotes made by politicians go up significantly (31% vs 55% increase). This could indicate that politicians are more and more involved in the climate debate possibly because of the growing public interest (maybe cite a study here) around the subject and therefore the proponent space it is starting to take in the public debate, to win an election now, you can’t ignore the climate debate. Is it related to actual concern on climate change or just as a political lever to get elected?
 {% include politic_research.html %}
 
 {% include sentiment_2015.html %}
