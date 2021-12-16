@@ -11,9 +11,9 @@ It is no surprise to anyone reading this that climate change has been a topic of
 * There is a disturbance in the media (Nico)
 * Extra : male-female (Nico)
 * Better plots
-~~  * Averages on sentiment plots (Charles) ~~
     * Volume plots (Adrien)
-* Events qui eclipsent le climat (Charles)
+* Events qui eclipsent le climat (Charles) 
+<s>Averages on sentiment plots (Charles)</s>
 
 # Table of Contents
 1. [Abstract](#abstract)
