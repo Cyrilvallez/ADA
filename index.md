@@ -63,6 +63,10 @@ Let's now take a bigger perspective on the speakers and study the differences be
 Additionally, we see a very interesting trend: while the frequency of quotes made by scientists increases slowly over the period we’re studying, the frequency of quotes made by politicians go up significantly (31% vs 55% increase). This could indicate that politicians are more and more involved in the climate debate possibly because of the growing public interest (maybe cite a study here) around the subject and therefore the proponent space it is starting to take in the public debate, to win an election now, you can’t ignore the climate debate. Is it related to actual concern on climate change or just as a political lever to get elected?
 {% include politic_research.html %}
 
+{% include male_female_normal.html %}
+
+{% include male_non_male.html %}
+
 {% include sentiment_2015.html %}
 
 {% include sentiment_2016.html %}
