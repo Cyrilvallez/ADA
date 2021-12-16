@@ -6,12 +6,12 @@ It is no surprise to anyone reading this that climate change has been a topic of
 # Table of Contents
 1. [Abstract](#abstract)
 2. [Objectives](#objectives)
-3. [Introduction](#intro)
-4. [Methods](#methods)
-5. [The Quotebank dataset](#quotebank)
-6. [The choice of the events](#choice)
-7. [Event Analysis](#reaction)
-8. [Identity of the speakers](#identity)
+3. [From 178 million quotes to "a few" hundred thousands](#intro)
+4. [Who is talking about climate change?](#who)
+5. [Timeline of the debate](#timeline)
+6. [Do we observe any seasonality?](#annualtrend)
+7. [The eternal rivalry between republicans and democrats](#rep)
+8. [A science issue for science people](#science)
 9. [Focus on the political spectrum of the speakers](#politics)
 10. [What is the most impactful?](#impact)
 
@@ -33,7 +33,7 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 
 # <a name="who"></a> Who is talking about climate change?
 
-# <a name="timeline"></a> Timeline of the debate?
+# <a name="timeline"></a> Timeline of the debate
 
 
 When looking at the count of quotes talking about climate change from 2015 to early 2020, what striked us, apart from the three distinct peaks, was the very low number of quotes during some months in 2016 and 2017. We need to take this into account when looking at frequency plots. Indeed if we plot the frequency of quotes talking about climate over all quotes from 2015 to 2020, we see some very important peaks around the low count months of 2016 and 2017. We must therefore ignore these months as a very low count skewes the frequencies way too high. The next two graphs represent the timeline of the quotes related to climate change, the first for frequency in ‰ (defined by the number of climate quotes in a day divided by the total amount of quotes the same day) and the second one with simply the raw number of quotes per day.
@@ -67,7 +67,7 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 {% include politic_research.html %}
 
 
-# <a name="trump"></a> Trump here, Trump therem Trump everywhere
+# <a name="trump"></a> Trump here, Trump there, Trump everywhere
 
 {% include sentiment_trump.html %}
 
