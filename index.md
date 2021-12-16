@@ -11,7 +11,7 @@ It is no surprise to anyone reading this that climate change has been a topic of
 * There is a disturbance in the media (Nico)
 * Extra : male-female (Nico)
 * Better plots
-    * Averages on sentiment plots (Charles)
+~~  * Averages on sentiment plots (Charles) ~~
     * Volume plots (Adrien)
 * Events qui eclipsent le climat (Charles)
 
@@ -75,16 +75,15 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 
 # <a name="trump"></a> Trump here, Trump there, Trump everywhere...
 
-{% include sentiment_trump.html %}
+{% include sent_trump_line.html %}
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
 # <a name="covid"></a> There is a disturbance in the debate...
 
 # <a name="extra"></a> Extra : And women in all of this?
-{% include male_female_normal.html %}
 
-{% include male_non_male.html %}
+{% include male_female_superpose.html %}
 
 # <a name="conclusion"></a> Conclusion
 
