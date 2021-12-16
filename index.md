@@ -67,6 +67,8 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 
 {% include male_non_male.html %}
 
+{% include tot_sent_count.html %}
+
 {% include sentiment_2015.html %}
 
 {% include sentiment_2016.html %}
