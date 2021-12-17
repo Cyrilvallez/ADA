@@ -23,11 +23,11 @@ It is no surprise to anyone reading this that climate change has been a topic of
 
 
 
-# <a name="intro"></a> From 178 million quotes to "a few" hundred thousands
+# <a name="intro"></a> From 116 million quotes to "a few" hundred thousands
 
-Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
+Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. Here, we focus on the years between 2015 and 2020 that are comprised in 116M quotes. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
 
-To analyse the different events we have chosen, we first needed to determine which quotes were talking about climate change. To do so, we tested different methods but got the best results by just using a small lexicon of expressions linked to climate change (using only words would lead to unreliable results). The expressions we used are the following : ‘climate change’, ‘climate emergency’, 'renewable energy', 'climate crisis', 'greenhouse effect', 'fossil fuel' 'renewable energies' and ‘global warming’. We wanted very general expressions, so as not to bias our future analysis. For example, we avoided including COP21 and COP26 in our lexicon to avoid the influence it could have on the nature of the quotes. We could have many other fancy methods to filter the dataset but at the end, it is usually enough to trust our instinct and choose the most logical words with a keyword analysis.
+To analyse the different events we have chosen, we first needed to determine which quotes were talking about climate change. To do so, we tested different methods but got the best results by just using a small lexicon of expressions linked to climate change (using only words would lead to unreliable results). The expressions we used are the following : ‘climate change’, ‘climate emergency’, 'renewable energy', 'climate crisis', 'greenhouse effect', 'renewable energies' and ‘global warming’. We wanted very general expressions, so as not to bias our future analysis. For example, we avoided including COP21 and COP26 in our lexicon to avoid the influence it could have on the nature of the quotes. We could have many other fancy methods to filter the dataset but at the end, it is usually enough to trust our instinct and choose the most logical words with a keyword analysis.
 
 After some investigations in the dataset Quotebank, we noticed that there were holes of data during the year 2016. As such, to prevent its nefast influence, we decided to set a threshold on the number of quotes per day because these days tend to have significantly higher frequency of climate related quotes appearances. In the next figure, this effect is visually noticeable when the threshold value of number of quotes is 5000 per day.
 
@@ -40,9 +40,10 @@ The identity of the speakers of the chosen quotes has to be properly defined to 
 
 {% include beautiful_map.html %}
 
-Now we can study the occupations of the speakers related to the quotes. In the next graph, we observe that the main profession that is interviewed or quoted in articles is politicians. Next, which is something positive, are the researches. They are the second most quoted professionals but at the same time their number of quotes pales in comparison to all of the other non scientific professions, such as actors, businesspersons, and so on.
+Now we can study the occupations of the speakers related to the quotes. In the next graph, we observe that the main profession that is interviewed or quoted in articles is politicians. Next, which is something positive, are the researches. They are the second most quoted professionals but at the same time their number of quotes pales in comparison to all of the other non scientific professions, such as actors, businesspersons, and so on. We will later on focus on the differences between politicians and researchers.
 
 {% include occupation.html %}
+
 # <a name="timeline"></a> A timeline of climate debate
 
 
@@ -86,8 +87,7 @@ Yes, it is him again ! From the timeline, it is clearly noticeable that the even
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
-In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals. When looking at the volume around these events, in january 2020, we observe that there is no massive peak, at least compared to the political/diplomatic events such as Trump's announcement or the COP21. We chose this event because it was happening in a country of the Commonwealth which usually have a significant amount of quotes. Nonetheless, this had no influence on the volume of quotes, or at least not enough. Do people care about these catastrophes?
-
+In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals. When looking at the volume around this event, in january 2020, we observe that there is no massive peak(right plot), at least compared to the political/diplomatic events such as Trump's announcement of leaving the COP21(left plot). We chose this event because it was happening in a country of the Commonwealth which usually have a significant amount of quotes. Nonetheless, this had no influence on the volume of quotes, or at least not enough. Do people care about these catastrophes? Or why do media talk more about Trump's announcement than a destructive event that costed life? Obviously, media nowadays rely on clicks as most of them provide free content in the internet. It is known from everyone that Trump actions and speeches attract a lot of attention and this is not necessarly helpful in the debate as people will focus on the person rather than on the content. Why so ? Because the volume of quotes is a big peak on this date without any modification afterwards. However, in the plot for the bushfires, there is a low number of quotes before the first articles on the 13th of January and afterwards it stays higher in the long run.
 <p float="left">
   <img src="VOLUME_TRUMP_scaled.png" width="490" />
   <img src="VOLUME_AUSTRALIA_scaled.png" width="450" /> 
@@ -95,7 +95,7 @@ In this study, we look in details one of the major events of the previous years 
 
 # <a name="covid"></a> There is a disturbance in the debate...
 
-From the volume study and as mentionned above, we have a significant drop of quote volume during the Covid crisis. This seems logical but has a deep significance. Climate change, in our developed country, is more a distant danger than an immediate threat. As the quotes are mainly coming from English speaking country such as the UK or North America, which are less subject to the environmental consequences of climate change, they heavily influenced by the actuality of those countries. Because global warming is a constant but mild threat in these regions of the world, news related to climate are expected to be easily replaced by more immediate information. Let's come back to the covid crisis. When every country had to close its borders, shops and schools, there were no more discussion on "oh let's talk about regulations to avoid elevation of the sea level in 20 years" when thousands of people were dying right now. Also, the quotes are heavily location-dependent. Island countries are at the frontline of the climate consequences.
+From the volume study and as mentionned above, we have a significant drop of quote volume during the Covid crisis. This seems logical but has a deep significance. Climate change, in our developed countries, is more a distant danger than an immediate threat. As the quotes are mainly coming from English speaking countries such as the UK or North America, which are less subject to the environmental consequences of climate change, these quotes are heavily influenced the actuality of those countries. Because global warming is a constant but mild threat in these regions of the world, news related to climate are expected to be easily replaced by more immediate information. Let's come back to the covid crisis. When every country had to close its borders, shops and schools, there were no more discussion on "oh let's talk about regulations to avoid elevation of the sea level in 20 years" when thousands of people were dying right now. Also, the quotes are heavily location-dependent. Island countries are at the frontline of the climate consequences.
 
 {% include covid.html %}
 
@@ -107,7 +107,7 @@ On top of climate change, gender inequalities is one of the most critical issues
 
 # <a name="conclusion"></a> Conclusion
 
-
+Climate change is a paradox : nothing close to climate change has happened so quickly in the history of the planet, but nothing is slower at the scale of our individual lifes. It should be a 24/7 top priority in order to allow a better future for the next generations but we are quickly caught by more immediate issues, legitimately of course. Those immediate issues, as showed in this study, are for example the covid crisis. It is hard to focus on the climate threat with such immediate issue in our plate. Also, the media has a crucial and very impactful impact on the debate. They are the one deciding what is published and what is not. As most of the news nowadays are free digital articles, they heavily rely on advertisements to survive. As this depends on the number of clicks, they need to attract as many users as possible. And what do people like ? Fresh, eye-catching news that does not feel too serious and boring.
 # <a name="refs"></a> References
 
 <a name="myfootnote1">[1]</a>: [Study on how different democrats and republicans are concerned about climate change](https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/)
