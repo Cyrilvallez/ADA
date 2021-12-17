@@ -46,14 +46,15 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 
 # <a name="who"></a> Who is talking about climate change?
 
-     <div>
+<div>
     <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200px" width="200px" border="1px"></p>
     <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
 </div>
 <div style="clear: left;">
     <p style="float: left;"><img src="http://placekitten.com/g/200/200" height="200" width="200" border="1px"></p>
     <p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p>
-      </div>
+</div>
+
 
 # <a name="timeline"></a> A timeline of climate debate
 
