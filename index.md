@@ -6,18 +6,6 @@
 
 It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 178M quotes from which climate change related quotes can be filtered. In this sense, the goal of this study is to better understand how the climate change debate has been evolving with a focus on a few events that were pillars in the discussion.
 
-# TODO LIST
-* Who is talking about climate change (Nico)
-    * ~~Carte des nationnalités (Cyril)~~
-    * Occupation plot (Cyril)
-* Natural events analysis (Nico)
-* There is a disturbance in the media (Nico)
-* Extra : male-female (Nico)
-* Better plots
-    * Volume plots (Adrien)
-    * ~~Averages on sentiment plots (Charles)~~
-    * ~~Superposition on gender plot (Charles)~~
-* Events qui eclipsent le climat (Charles) 
 
 # Table of Contents
 1. [Abstract](#abstract)
