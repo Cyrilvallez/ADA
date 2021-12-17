@@ -44,10 +44,10 @@ Now we can study the occupations of the speakers related to the quotes. In the n
 {% include occupation.html %}
 
 {% include imagetextleft.html figname="gender_pie.html" title="The proportion of gender minorities !" description="> Gender is also an important aspect to consider when analysing who is speaking about climate change. As always, not surprisingly, the overwhelming gender is... Drumrolls... males!  We also tried to extract non binary genders with different keywords, and they represent only 0.1% of the speakers. Actually, they represent 0.24%<sup>[1](#myfootnote1)</sup> of the population so there is a clear gap, in addition to the gap for women." %}
+
 # <a name="timeline"></a> A timeline of climate debate
 
-
-When looking at the count of quotes talking about climate change from 2015 to early 2020, what striked us, apart from the three distinct peaks, was the very low number of quotes during some months in 2016 and 2017. We need to take this into account when looking at frequency plots. Indeed if we plot the frequency of quotes talking about climate over all quotes from 2015 to 2020, we see some very important peaks around the low count months of 2016 and 2017. We must therefore ignore these months as a very low count skewes the frequencies way too high. The next graph represents the timeline of the quotes related to climate change in frequency in ‰ (defined by the number of climate quotes in a day divided by the total amount of quotes the same day). A linear regression has also been performed on the frequency of the said quotes. The slope of this regression is slightly positive and we notice that from 2018 until beginning of 2020, the trend is clearly increasing, juste before falling due to the Covid crisis, which shook (a bit) the world.
+The next graph represents the timeline of the quotes related to climate change in frequency in ‰ (defined by the number of climate quotes in a day divided by the total amount of quotes the same day). A linear regression has also been performed on the frequency of the said quotes. The slope of this regression is slightly positive and we notice that from 2018 until beginning of 2020, the trend is clearly increasing, juste before falling due to the Covid crisis, which shook (a bit) the world.
 
 {% include Frequency.html %}
 
