@@ -77,8 +77,8 @@ Let's now talk a little bit of politics ! Here it is noticeable that as expected
 <div class="grid">
   <div class="col-1-4">
     <div class="comment">
-      <h2 class="commenttitle"> {{ Information }}</h2>
-      {{ information }}
+      <h2 class="commenttitle"> { Information }</h2>
+      { information }
      </div>
   </div>
   <div class="col-3-4">
