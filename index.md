@@ -112,6 +112,7 @@ Climate change is a paradox : nothing close to climate change has happened so qu
 # <a name="refs"></a> References
 
 <a name="myfootnote1">[1]</a> : [What Percentage of the Population is Transgender](https://worldpopulationreview.com/state-rankings/transgender-population-by-state)
+
 <a name="myfootnote2">[2]</a> : [Study on how different democrats and republicans are concerned about climate change](https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/)
 
 <a name="myfootnote3">[3]</a> : [Research done on the trust in the government by the US citizens](https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/)
