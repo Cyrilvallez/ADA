@@ -91,7 +91,7 @@ Yes, it is him again ! From the timeline, it is clearly noticeable that the even
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
-In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions!) of animals.
+In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals.
 
 # <a name="covid"></a> There is a disturbance in the debate...
 
