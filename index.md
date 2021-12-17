@@ -9,7 +9,7 @@ It is no surprise to anyone reading this that climate change has been a topic of
 
 # Table of Contents
 1. [Abstract](#abstract)
-2. [From 178 million quotes to "a few" hundred thousands](#intro)
+2. [From 116 million quotes to "a few" hundred thousands](#intro)
 3. [Who is talking about climate change?](#who)
 4. [A timeline of climate debate](#timeline)
 5. [Do we observe any seasonality?](#annualtrend)
@@ -36,7 +36,7 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 # <a name="who"></a> Who is talking about climate change?
 
 
-The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. Firstly, we can put on a map of the world the corresponding number of quotes per country. Unsurprisingly, we observe that most of the quotes come from English speaking countries. This has to taken into account in the analysis of them as obviously, more quotes will be linked to the US or countries of the Commonwealth. We let you play a little bit with the map and catch us in the rest of the analysis afterwards. You should also realise that the scale is logarithmic ! 
+The identity of the speakers of the climate quotes has to be properly defined to be able to understand possible inequalities. Firstly, we can put on a map of the world the corresponding number of quotes per country. Unsurprisingly, we observe that most of the quotes come from English speaking countries. This has to be taken into account in their analysis as obviously, more quotes will be linked to the US or countries of the Commonwealth. We let you play a little bit with the map and catch us in the rest of the analysis afterwards! You should also realise that the scale is logarithmic ! 
 
 {% include beautiful_map.html %}
 
@@ -95,7 +95,7 @@ In this study, we look in details one of the major events of the previous years 
 
 # <a name="covid"></a> There is a disturbance in the debate...
 
-From the volume study and as mentionned above, we have a significant drop of quote volume during the Covid crisis. This seems logical but has a deep significance. Climate change, in our developed countries, is more a distant danger than an immediate threat. As the quotes are mainly coming from English speaking countries such as the UK or North America, which are less subject to the environmental consequences of climate change, these quotes are heavily influenced the actuality of those countries. Because global warming is a constant but mild threat in these regions of the world, news related to climate are expected to be easily replaced by more immediate information. Let's come back to the covid crisis. When every country had to close its borders, shops and schools, there were no more discussion on "oh let's talk about regulations to avoid elevation of the sea level in 20 years" when thousands of people were dying right now. Also, the quotes are heavily location-dependent. Island countries are at the frontline of the climate consequences.
+From the volume study and as mentionned above, we have a significant drop of quote volume during the Covid crisis, as confirmed in the plot below. This seems logical but has a deep significance. Climate change, in our developed countries, is more a distant danger than an immediate threat. As the quotes are mainly coming from English speaking countries such as the UK or North America, which are less subject to the environmental consequences of climate change, these quotes are heavily influenced the actuality of those countries. Because global warming is a constant but mild threat in these regions of the world, news related to climate are expected to be easily replaced by more immediate information. Let's come back to the covid crisis. When every country had to close its borders, shops and schools, there were no more discussion on "oh let's talk about regulations to avoid elevation of the sea level in 20 years" when thousands of people were dying right now. Also, the quotes are heavily location-dependent. Island countries are at the frontline of the climate consequences.
 
 {% include covid.html %}
 
