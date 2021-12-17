@@ -81,8 +81,8 @@ Let's now take a bigger perspective on the speakers and study the differences be
 {% include imagetextleft.html figname="prop_research_pol.html" title="Vote for me !" description=">While the frequency of scientists quotes increases slowly over the period we’re studying, the frequency of politicians quotes go up significantly (31% vs 55% increase). This indicates that politicians are more and more involved in the climate debate possibly because of the growing public interest around the subject and therefore the proponent space it is starting to take in the public debate. To win an election now, you cannot ignore the climate debate. Is it related to actual concern on climate change or just as a political lever to get elected?" %}
 
 <p float="left" style="text-align:center" >
-  <img src="researcher_word_cloud_compressed_page-0001.jpg" width="490" />
-  <img src="politic_word_cloud_compressed_page-0001.jpg" width="450" /> 
+  <img src="researcher_word_cloud_compressed_page-0001.jpg" width="500" />
+  <img src="politic_word_cloud_compressed_page-0001.jpg" width="500" /> 
 </p>
 
 # <a name="trump"></a> Trump here, Trump there, Trump everywhere...
