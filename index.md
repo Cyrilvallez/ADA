@@ -96,8 +96,8 @@ Yes, it is him again ! From the timeline, it is clearly noticeable that the even
 In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals. When looking at the volume around these events, in january 2020, we observe that there is no massive peak, at least compared to the political/diplomatic events such as Trump's announcement or the COP21. We chose this event because it was happening in a country of the Commonwealth which usually have a significant amount of quotes. Nonetheless, this had no influence on the volume of quotes, or at least not enough. Do people care about these catastrophes?
 
 <p float="left">
-  <img src="VOLUME_TRUMP_scaled.png" width="500" />
-  <img src="VOLUME_AUSTRALIA_scaled.png" width="500" /> 
+  <img src="VOLUME_TRUMP_scaled.png" width="550" />
+  <img src="VOLUME_AUSTRALIA_scaled.png" width="450" /> 
 </p>
 
 # <a name="covid"></a> There is a disturbance in the debate...
