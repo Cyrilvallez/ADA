@@ -4,7 +4,7 @@
 # <a name="abstract"></a> Abstract
 
 
-It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 178M quotes from which climate change related quotes can be extracted. In this sense, the goal of this study is to better understand how the climate change debate has been evolving by analysing its speakers and how a few events are representing the development of the debate.
+It is no surprise to anyone reading this that climate change has been a source of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 178M quotes from which climate change related quotes can be extracted. In this sense, the goal of this study is to better understand how the climate change debate has been evolving by analysing its speakers and how a few events are representing the development of the debate.
 
 
 # Table of Contents
@@ -80,9 +80,11 @@ Let's now take a bigger perspective on the speakers and study the differences be
 
 {% include imagetextleft.html figname="prop_research_pol.html" title="Vote for me !" description=">While the frequency of scientists quotes increases slowly over the period we’re studying, the frequency of politicians quotes go up significantly (31% vs 55% increase). This indicates that politicians are more and more involved in the climate debate possibly because of the growing public interest around the subject and therefore the proponent space it is starting to take in the public debate. To win an election now, you cannot ignore the climate debate. Is it related to actual concern on climate change or just as a political lever to get elected?" %}
 
+
+You guessed, you have also world clouds :surprise!: The erlenmeyer flask represents the cloud for the researchers. In the second one, the man in a suit represents the cloud for the politicians. Even though some words are redundant, like "will", "impact", "can", "energy", "climate", we observe some differences. For example, the politicians talk more about "community", "country", "government". The words "need" and "people" are slightly bigger for politicians as well as "state". When we consider the scientists, we see more words such as "carbon", "extreme", "water", "temperature", "ocean". We clearly see that they are talking more about the issues itself while politicians talk more about the social implications. This is understandable when their role is to unite and reassure, while the scientists' role is to share knowledge and warn about future events. In that sense, it is a positive result as people are talking in topics expected from them.
 <p float="left" style="text-align:center" >
-  <img src="researcher_word_cloud_compressed_page-0001.jpg" width="500" />
-  <img src="politic_word_cloud_compressed_page-0001.jpg" width="500" /> 
+  <img src="researcher_word_cloud_compressed_page-0001.jpg" width="450" />
+  <img src="politic_word_cloud_compressed_page-0001.jpg" width="450" /> 
 </p>
 
 # <a name="trump"></a> Trump here, Trump there, Trump everywhere...
