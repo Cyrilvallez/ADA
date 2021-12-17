@@ -4,7 +4,7 @@
 # <a name="abstract"></a> Abstract
 
 
-It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 50M quotes from which climate change related quotes can be filtered. In this sense, the goal of this study is to better understand how the climate change debate has been evolving with a focus on a few events that were pillars in the discussion.
+It is no surprise to anyone reading this that climate change has been a topic of polarizing discussion for the last few years. Indeed, it becomes more and more apparent in the signs from nature (floods, heatwaves and so on) that something is happening and our societies are reacting. Consequently, measures are taken by decision makers about how to mitigate it. Scientists are getting interviewed, politicians give speeches and all of this is delivered by the media. Such influence can be studied through the analysis of who and what they quote in their articles. The Quotebank dataset offers such a possibility, thanks to its 178M quotes from which climate change related quotes can be filtered. In this sense, the goal of this study is to better understand how the climate change debate has been evolving with a focus on a few events that were pillars in the discussion.
 
 # TODO LIST
 * Who is talking about climate change (Nico)
@@ -91,7 +91,7 @@ Yes, it is him again ! From the timeline, it is clearly noticeable that the even
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
-In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals.
+In this study, we look in details one of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals. When looking at the volume around these events, in january 2020, we observe that there is no massive peak, at least compared to the political/diplomatic events such as Trump's announcement or the COP21. We chose this event because it was happening in a country of the Commonwealth which usually have a significant amount of quotes. Nonetheless, this had no influence on the volume of quotes, or at least not enough. Do people care about these catastrophes?
 
 # <a name="covid"></a> There is a disturbance in the debate...
 
