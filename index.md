@@ -40,7 +40,7 @@ The identity of the speakers of the climate quotes has to be properly defined to
 
 {% include beautiful_map.html %}
 
-Now we can study the occupations of the speakers related to the quotes. In the next graph, we observe that the main profession that is interviewed or quoted in articles is politicians. Next, which is something positive, are the researches. They are the second most quoted professionals but at the same time their number of quotes pales in comparison to all of the other non scientific professions, such as actors, businesspersons, and so on. We will later on focus on the differences between politicians and researchers.
+Now we can study the occupations of the speakers related to the quotes. In the next graph, we observe that the main profession that is interviewed or quoted in articles is politician. Next, which is something positive, are the researchers. They are the second most quoted professionals but at the same time their number of quotes pales in comparison to all of the other non scientific professions, such as actors, businesspersons, and so on. We will later on focus on the differences between politicians and researchers.
 
 {% include occupation.html %}
 
