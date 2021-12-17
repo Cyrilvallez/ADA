@@ -93,7 +93,7 @@ One of the major events of the previous years : the massive wildfires in Austral
   <img src="VOLUME_AUSTRALIA_scaled.png" width="450" /> 
 </p>
 
-# <a name="covid"></a> There is a disturbance in the for... I mean debate!
+# <a name="covid"></a> There is a disturbance in the forc... I mean debate!
 
 From the volume study and as mentionned above, we have a significant drop of quote volume during the Covid crisis, as confirmed in the plot below. This seems logical but has a deep significance. Climate change, in our developed countries, is more a distant danger than an immediate threat. As the quotes are mainly coming from English speaking countries such as the UK or North America, which are less subject to the environmental consequences of climate change, these quotes are heavily influenced the actuality of those countries. Because global warming is a constant but mild threat in these regions of the world, news related to climate are expected to be easily replaced by more immediate information. Let's come back to the covid crisis. When every country had to close its borders, shops and schools, there were no more discussion on "oh let's talk about regulations to avoid elevation of the sea level in 20 years" when thousands of people were dying right now. Also, the quotes are heavily location-dependent. Island countries are at the frontline of the climate consequences.
 
