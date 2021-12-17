@@ -48,6 +48,8 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 
 The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. 
 
+{% include beautiful_map.html %}
+
 
 # <a name="timeline"></a> A timeline of climate debate
 
