@@ -36,7 +36,7 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 # <a name="who"></a> Who is talking about climate change?
 
 
-The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. Firstly, we can put on a map of the world the corresponding number of quotes per country. Unsurprisingly, we observe that most of the quotes come from English speaking countries. This has to taken into account in the analysis of them as obviously, more quotes will be linked to the US or countries of the Commonwealth. We let you play a little bit with the map and catch us in the rest of the analysis afterwards.
+The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. Firstly, we can put on a map of the world the corresponding number of quotes per country. Unsurprisingly, we observe that most of the quotes come from English speaking countries. This has to taken into account in the analysis of them as obviously, more quotes will be linked to the US or countries of the Commonwealth. We let you play a little bit with the map and catch us in the rest of the analysis afterwards. You should also realise that the scale is logarithmic ! 
 
 {% include beautiful_map.html %}
 
