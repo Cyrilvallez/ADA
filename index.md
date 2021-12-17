@@ -16,7 +16,7 @@ It is no surprise to anyone reading this that climate change has been a topic of
 * Better plots
     * Volume plots (Adrien)
     * ~~Averages on sentiment plots (Charles)~~
-    * ~~Superposition on gender plot (Charles)
+    * ~~Superposition on gender plot (Charles)~~
 * Events qui eclipsent le climat (Charles) 
 
 # Table of Contents
