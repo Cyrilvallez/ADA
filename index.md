@@ -47,7 +47,7 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 # <a name="who"></a> Who is talking about climate change?
 
 
-
+The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. 
 
 
 # <a name="timeline"></a> A timeline of climate debate
@@ -93,6 +93,7 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 
 # <a name="extra"></a> Extra : And women in all of this?
 
+On top of climate change, gender inequalities is one of the most critical issues of our modern societies. It could be interesting to see, as a bonus to this study, how women are considered in the climate debate. Fortunately, we come (finally) with good news! When looking at the overall trend of speakers categorized by thy gender, we see that the climate debate is opened more and more for women. Even though it is still far from perfect parity in a context where it should, it looks like there is a convergence to the mean. Indeed, male speakers still have more quotations than non male speakers but the latter have an increasing trend, better than the overall trend when taking the entirety of the dataset(not just climate quotes). It is the same behavior for men : they have a decreasing overall fraction of quotes, and even more so when focusing in climate quotes. Maybe climate is a more open-minded topic than the average? Finally a positive touch!
 {% include male_female_superpose.html %}
 
 # <a name="conclusion"></a> Conclusion
