@@ -109,4 +109,4 @@ On top of climate change, gender inequalities is one of the most critical issues
 
 <a name="myfootnote2">[2]</a> : [Research done on the trust in the government by the US citizens](https://www.pewresearch.org/politics/2021/05/17/public-trust-in-government-1958-2021/)
 
-<a name="myfootnote2">[2]</a> : [Australia's fires 'killed or harmed three billion animals'](https://www.bbc.com/news/world-australia-53549936)
+<a name="myfootnote3">[3]</a> : [Australia's fires 'killed or harmed three billion animals'](https://www.bbc.com/news/world-australia-53549936)
