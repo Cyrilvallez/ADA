@@ -8,18 +8,18 @@ It is no surprise to anyone reading this that climate change has been a source o
 
 
 # Table of Contents
-1. [Abstract](#abstract)
-2. [From 116 million quotes to "a few" hundred thousands](#intro)
-3. [Who is talking about climate change?](#who)
-4. [A timeline of climate debate](#timeline)
-5. [Do we observe any seasonality?](#annualtrend)
-6. [The eternal rivalry between republicans and democrats](#rep)
-7. [A science issue for science people](#science)
-8. [Trump here, Trump there, Trump everywhere...](#trump)
-9. [Okay for politics, and what about natural events?](#nature)
-10. [There is a disturbance in the debate...](#covid)
-11. [Extra : And women in all of this?](#extra)
-12. [Conclusion](#conclusion)
+* [Abstract](#abstract)
+* [From 116 million quotes to "a few" hundred thousands](#intro)
+* [Who is talking about climate change?](#who)
+* [A timeline of climate debate](#timeline)
+* [Do we observe any seasonality?](#annualtrend)
+* [The eternal rivalry between republicans and democrats](#rep)
+* [A science issue for science people](#science)
+* [Trump here, Trump there, Trump everywhere...](#trump)
+* [Okay for politics, and what about natural events?](#nature)
+* [There is a disturbance in the debate...](#covid)
+* [Extra : And women in all of this?](#extra)
+* [Conclusion](#conclusion)
 
 
 
