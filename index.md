@@ -48,8 +48,6 @@ After some investigations in the dataset Quotebank, we noticed that there were h
 
 The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. 
 
-{% include beautiful_map.html %}
-
 
 # <a name="timeline"></a> A timeline of climate debate
 
@@ -75,9 +73,7 @@ A weird behavior should still be mentioned : in 2018, the trend is almost only i
 
 Let's now talk a little bit of politics ! Here it is noticeable that as expected, republicans talk less than democrates about climate change. Indeed, it has been reported in several reports that they consider climate change less as a top priority than democrats <sup>[1](#myfootnote1)</sup>. Republicans have historically been pretty skeptical about climate change, they tend to favor the development of their industries over the wellbeing of the atmosphere. Something quite surprising is the fact that the republicans even talk less and less about the climate. What do we do when we realise we are wrong about something? We tend to stay silent. In the same way Trump avoided talking about coronavirus after catching it, republicans might realise the urgency of mitigating the GHG emissions and are running out of arguments to counter argument this movement. This is a first theory, another one might be related to the election in 2017 of Trump. Being the leader of the country with a great influence over his party, his scepticism towards global warming might have convinced his fellow politicians to talk less about it.  All the while, the trend for democrats remains very steady. It would be interesting to analyse this result for previous years as well, it would show if this is a long term trend or not.
 
-
-{% include imagetextright.html figname="democratic_republican.html" title="Counting the quotes published for each gender" description="> The voice in the newspapers is much more given to men than to women (about 80% against 20%) which is similar to the figures published in 2015. A slight evolution of the rate of women's speech appears between the periods but it remains to be investigated." %}
-
+{% include democratic_republican.html %}
 
 # <a name="science"></a> A science issue for science people
 
@@ -90,7 +86,7 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 
 Yes, it is him again ! From the timeline, it is clearly noticeable that the event causing the highest volume of quotes in the decision of Trump to leave the Paris' Agreements. As such, a sentimental analysis could be performed around this event. Here below, we observe that around the said date, 1st of June 2017, the sentiment is pretty negative. The horizontal plot is the sentiment mean, the red bars the negative ones and the blue ones the positive ones. Before and after the event, the distribution of sentiment ins pretty balanced, but Trump shifted this trend with his announcement that lead to a very negative sentiment. The million dollar question now is to determine if people were very concerned by the USA leaving the Agreements, or more about another event putting Trump in the spotlight?
 
-{% include 2017-06-02_avg_over.html %}
+{% include 2017-06-02_good_over.html %}
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
