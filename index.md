@@ -14,6 +14,7 @@ It is no surprise to anyone reading this that climate change has been a topic of
     * Volume plots (Adrien)
 * Events qui eclipsent le climat (Charles) 
 <s>Averages on sentiment plots (Charles)</s>
+<s>Superposition on gender plot (Charles)</s>
 
 # Table of Contents
 1. [Abstract](#abstract)
