@@ -8,7 +8,6 @@ It is no surprise to anyone reading this that climate change has been a source o
 
 
 # Table of Contents
-* [Abstract](#abstract)
 * [From 116 million quotes to "a few" hundred thousands](#intro)
 * [Who is talking about climate change?](#who)
 * [A timeline of climate debate](#timeline)
