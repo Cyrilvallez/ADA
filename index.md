@@ -39,17 +39,22 @@ It is no surprise to anyone reading this that climate change has been a topic of
 
 Quotebank is a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over 377 thousand web domains between August 2008 and April 2020. The quotations were extracted and attributed using Quobert, a distantly and minimally supervised end-to-end, language-agnostic framework for quotation attribution.
 
-To analyse the different events we have chosen, we first needed to determine which quotes were talking about climate change. To do so, we tested different methods but got the best results by just using a small lexicon of expressions linked to climate change (using only words would lead to unreliable results). The expressions we used are the following : ‘climate change’, ‘climate emergency’ and ‘global warming’. We wanted very general expressions, so as not to bias our future analysis. For example, we avoided including COP21 and COP26 in our lexicon to avoid the influence it could have on the nature of the quotes. We could have many other fancy methods to filter the dataset but at the end, it is usually enough to trust our instinct and choose the most logical words with a keyword analysis.
+To analyse the different events we have chosen, we first needed to determine which quotes were talking about climate change. To do so, we tested different methods but got the best results by just using a small lexicon of expressions linked to climate change (using only words would lead to unreliable results). The expressions we used are the following : ‘climate change’, ‘climate emergency’, 'renewable energy', 'climate crisis', 'greenhouse effect', 'fossil fuel' 'renewable energies' and ‘global warming’. We wanted very general expressions, so as not to bias our future analysis. For example, we avoided including COP21 and COP26 in our lexicon to avoid the influence it could have on the nature of the quotes. We could have many other fancy methods to filter the dataset but at the end, it is usually enough to trust our instinct and choose the most logical words with a keyword analysis.
 
-After some investigations in the dataset Quotebank, we noticed that there were holes of data during the year 2016. As such, to prevent its nefast influence, we decided to set a threshold on the number of quotes per day because these days tend to have significantly higher frequency of climate related quotes appearances. In the next figure, this effect is visually noticeable, (FIGURE SUPERPOSITION AVEC/SANS 2016),
+After some investigations in the dataset Quotebank, we noticed that there were holes of data during the year 2016. As such, to prevent its nefast influence, we decided to set a threshold on the number of quotes per day because these days tend to have significantly higher frequency of climate related quotes appearances. In the next figure, this effect is visually noticeable, 
+
+{& include Filtered_vs_unfiltered.html %}
 
 # <a name="who"></a> Who is talking about climate change?
 
 
-The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. 
+The identity of the speakers of the chosen quotes has to be properly defined to be able to understand possible inequalities. Firstly, we can put on a map of the world the corresponding number of quotes per country. Unsurprisingly, we observe that most of the quotes come from English speaking countries. This has to taken into account in the analysis of them as obviously, more quotes will be linked to the US or countries of the Commonwealth. We let you play a little bit with the map and catch us in the rest of the analysis afterwards.
 
 {% include beautiful_map.html %}
 
+Now we can study the occupations of the speakers related to the quotes. In the next graph, we observe that the main profession that is interviewed or quoted in articles is politicians. 
+
+{% include occupation.html %}
 # <a name="timeline"></a> A timeline of climate debate
 
 
