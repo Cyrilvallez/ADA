@@ -8,7 +8,7 @@ It is no surprise to anyone reading this that climate change has been a topic of
 
 # TODO LIST
 * Who is talking about climate change (Nico)
-    * Carte des nationnalités (Cyril)
+    * ~~Carte des nationnalités (Cyril)~~
     * Occupation plot (Cyril)
 * Natural events analysis (Nico)
 * There is a disturbance in the media (Nico)
