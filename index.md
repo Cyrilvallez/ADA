@@ -88,7 +88,7 @@ Yes, it is him again ! From the timeline, it is clearly noticeable that the even
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
 One of the major events of the previous years : the massive wildfires in Australia that lasted weeks and killed billions (yes yes, billions<sup>[3](#myfootnote3)</sup>!) of animals. When looking at the volume around this event, in january 2020, we observe that there is no massive peak (right plot), at least compared to the political/diplomatic events such as Trump's announcement of leaving the COP21 (left plot). We chose this event because it was happening in a country of the Commonwealth which usually have a significant amount of quotes. Nonetheless, this had no influence on the volume of quotes, or at least not enough. Do people even care about these catastrophes ? Or why do media talk more about Trump's announcement than a destructive event that costed lives ? Obviously, media nowadays rely on clicks as most of them provide free content in the internet. It is known from everyone that Trump actions and speeches attract a lot of attention and this is not necessarly helpful in the debate as people will focus on the person rather than on the content. Why so ? Because the volume of quotes is a big peak on this date without any modification afterwards. However, in the plot for the bushfires, there is a low number of quotes before the first articles on the 13th of January and afterwards it stays higher in the long run.
-<p float="left">
+<p float="left" style="text-align:center" >
   <img src="VOLUME_TRUMP_scaled.png" width="490" />
   <img src="VOLUME_AUSTRALIA_scaled.png" width="450" /> 
 </p>
