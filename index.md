@@ -74,17 +74,7 @@ A weird behavior should still be mentioned : in 2018, the trend is almost only i
 
 Let's now talk a little bit of politics ! Here it is noticeable that as expected, republicans talk less than democrates about climate change. Indeed, it has been reported in several reports that they consider climate change less as a top priority than democrats (source : https://www.pewresearch.org/fact-tank/2020/02/28/more-americans-see-climate-change-as-a-priority-but-democrats-are-much-more-concerned-than-republicans/). Republicans have historically been pretty skeptical about climate change, they tend to favor the development of their industries over the wellbeing of the atmosphere. Something quite surprising is the fact that the republicans even talk less and less about the climate. What do we do when we realise we are wrong about something? We tend to stay silent. In the same way Trump avoided talking about coronavirus after catching it, republicans might realise the urgency of mitigating the GHG emissions and are running out of arguments to counter argument this movement. This is a first theory, another one might be related to the election in 2017 of Trump. Being the leader of the country with a great influence over his party, his scepticism towards global warming might have convinced his fellow politicians to talk less about it.  All the while, the trend for democrats remains very steady. It would be interesting to analyse this result for previous years as well, it would show if this is a long term trend or not.
 
-<div class="grid">
-  <div class="col-1-4">
-    <div class="comment">
-      <h2 class="commenttitle"> { Information }</h2>
-      { information }
-     </div>
-  </div>
-  <div class="col-3-4">
-    <img src="assets/{{ include democratic_republican.html }}" alt=""> 
-  </div>
-</div>
+{% include imagetextleft.html image_path="democratic_republican.html" title="Looking at the occupation of women quoted" description=">It is observed that the most talked about women are politicians, lawyer, writer, university teacher. The distribution is however highly skewed indicating a huge asymmetry in the representation of occupations in newspapers" %}
 {% include democratic_republican.html %}
 
 # <a name="science"></a> A science issue for science people
