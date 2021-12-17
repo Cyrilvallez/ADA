@@ -86,7 +86,7 @@ Additionally, we see a very interesting trend: while the frequency of quotes mad
 
 Yes, it is him again ! From the timeline, it is clearly noticeable that the event causing the highest volume of quotes in the decision of Trump to leave the Paris' Agreements. As such, a sentimental analysis could be performed around this event. Here below, we observe that around the said date, 1st of June 2017, the sentiment is pretty negative. The horizontal plot is the sentiment mean, the red bars the negative ones and the blue ones the positive ones. Before and after the event, the distribution of sentiment ins pretty balanced, but Trump shifted this trend with his announcement that lead to a very negative sentiment. The million dollar question now is to determine if people were very concerned by the USA leaving the Agreements, or more about another event putting Trump in the spotlight?
 
-{% include sent_trump_line.html %}
+{% include 2017-06-02_avg_over.html %}
 
 # <a name="nature"></a> Okay for politics, and what about natural events?
 
