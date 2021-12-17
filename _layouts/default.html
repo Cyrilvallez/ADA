@@ -33,6 +33,25 @@
 
     <main id="content" class="main-content" role="main">
       {{ content }}
+       <head>
+    <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    </style>
+ </head>
+ <body>
         <div class="row">
         <div class="column" style="background-color:#FFB695;">
             <h2>Column 1</h2>
